@@ -21,7 +21,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/zero"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical">
@@ -29,24 +29,24 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="@dimen/medium"
                         android:fontFamily="sans-serif-medium"
                         android:gravity="center"
                         android:text="@string/player_1"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small_text"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/player_1_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="@dimen/medium"
                         android:fontFamily="sans-serif-light"
                         android:gravity="center"
                         android:text="@string/start_score"
-                        android:textColor="#000000"
-                        android:textSize="56sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text"
                         android:textStyle="bold" />
 
                     <TextView
@@ -56,16 +56,16 @@
                         android:fontFamily="sans-serif-light"
                         android:gravity="center"
                         android:text="@string/start_score"
-                        android:textColor="#000000"
-                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_text"
                         android:textStyle="bold" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/large"
                         android:onClick="add1500ForPlayer1"
                         android:text="@string/_1500"
                         android:textStyle="bold" />
@@ -73,9 +73,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="add250ForPlayer1"
                         android:text="@string/_250"
                         android:textStyle="bold" />
@@ -83,9 +83,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="add100ForPlayer1"
                         android:text="@string/_100"
                         android:textStyle="bold" />
@@ -93,9 +93,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/small"
+                        android:layout_marginRight="@dimen/small"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="BANKRUTForPlayer1"
                         android:text="@string/bankrupt"
                         android:textStyle="bold" />
@@ -103,9 +103,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="addPrizeForPlayer1"
                         android:text="@string/prize"
                         android:textStyle="bold" />
@@ -113,13 +113,13 @@
                 </LinearLayout>
 
                 <View
-                    android:layout_width="3dp"
+                    android:layout_width="@dimen/line"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/medium"
                     android:background="@android:color/darker_gray" />
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/zero"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical">
@@ -127,24 +127,24 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="@dimen/medium"
                         android:fontFamily="sans-serif-medium"
                         android:gravity="center"
                         android:text="@string/player_2"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small_text"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/player_2_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="@dimen/medium"
                         android:fontFamily="sans-serif-light"
                         android:gravity="center"
                         android:text="@string/start_score"
-                        android:textColor="#000000"
-                        android:textSize="56sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text"
                         android:textStyle="bold" />
 
                     <TextView
@@ -154,16 +154,16 @@
                         android:fontFamily="sans-serif-light"
                         android:gravity="center"
                         android:text="@string/start_score"
-                        android:textColor="#000000"
-                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_text"
                         android:textStyle="bold" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/large"
                         android:onClick="add1500ForPlayer2"
                         android:text="@string/_1500"
                         android:textStyle="bold" />
@@ -171,8 +171,8 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
                         android:layout_marginTop="8dp"
                         android:onClick="add250ForPlayer2"
                         android:text="@string/_250"
@@ -181,9 +181,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="add100ForPlayer2"
                         android:text="@string/_100"
                         android:textStyle="bold" />
@@ -191,9 +191,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/small"
+                        android:layout_marginRight="@dimen/small"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="BANKRUTForPlayer2"
                         android:text="@string/bankrupt"
                         android:textStyle="bold" />
@@ -201,9 +201,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="addPrizeForPlayer2"
                         android:text="@string/prize"
                         android:textStyle="bold" />
@@ -211,13 +211,13 @@
                 </LinearLayout>
 
                 <View
-                    android:layout_width="3dp"
+                    android:layout_width="@dimen/line"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/medium"
                     android:background="@android:color/darker_gray" />
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/zero"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical">
@@ -225,24 +225,24 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="@dimen/medium"
                         android:fontFamily="sans-serif-medium"
                         android:gravity="center"
                         android:text="@string/player_3"
-                        android:textColor="#000000"
-                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/small_text"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/player_3_score"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="@dimen/medium"
                         android:fontFamily="sans-serif-light"
                         android:gravity="center"
                         android:text="@string/start_score"
-                        android:textColor="#000000"
-                        android:textSize="56sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text"
                         android:textStyle="bold" />
 
                     <TextView
@@ -252,16 +252,16 @@
                         android:fontFamily="sans-serif-light"
                         android:gravity="center"
                         android:text="@string/start_score"
-                        android:textColor="#000000"
-                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_text"
                         android:textStyle="bold" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/large"
                         android:onClick="add1500ForPlayer3"
                         android:text="@string/_1500"
                         android:textStyle="bold" />
@@ -269,9 +269,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="add250ForPlayer3"
                         android:text="@string/_250"
                         android:textStyle="bold" />
@@ -279,9 +279,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="add100ForPlayer3"
                         android:text="@string/_100"
                         android:textStyle="bold" />
@@ -289,9 +289,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/small"
+                        android:layout_marginRight="@dimen/small"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="BANKRUTForPlayer3"
                         android:text="@string/bankrupt"
                         android:textStyle="bold" />
@@ -299,9 +299,9 @@
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="24dp"
-                        android:layout_marginRight="24dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="@dimen/large"
+                        android:layout_marginRight="@dimen/large"
+                        android:layout_marginTop="@dimen/small"
                         android:onClick="addPrizeForPlayer3"
                         android:text="@string/prize"
                         android:textStyle="bold" />
@@ -318,7 +318,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="@dimen/medium"
         android:onClick="reset"
         android:text="@string/reset"
         android:textStyle="bold" />
